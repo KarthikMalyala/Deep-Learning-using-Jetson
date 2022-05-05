@@ -1,0 +1,1 @@
+detectnet --model=models/learn/ssd-mobilenet.onnx --labels=models/learn/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes /dev/video2

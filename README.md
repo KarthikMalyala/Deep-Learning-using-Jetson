@@ -1,5 +1,7 @@
 # Deep-Learning-using-Jetson
 
+## Video Demonstration: https://youtu.be/ecxtygfc0DE
+
 To run using the LARRINX NVIDIA Jetson NX:
 - cd jetson-inference
 - docker/run.sh

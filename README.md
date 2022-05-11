@@ -19,4 +19,6 @@
   - docker/run.sh
   - cd python/training/detection/ssd
   - python3 train_ssd.py --dataset-type=voc --data=data/learn --model-dir=models/learn --batch-size=2 --workers=1 --epochs=2
+  - python3 onnx_export.py --model-dir=models/learn
+  - detectnet --model=models/learn/ssd-mobilenet.onnx --labels=models/learn/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes /dev/video2
   
